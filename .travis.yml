@@ -1,7 +1,9 @@
 language: python
 python:
 - "2.7"
-- "3.5"
+- "3.5" # Debian 9
+- "3.7" # Debian 10
+- "3.8"
 install:
 - pip install -r requirements-dev.txt
 script:
